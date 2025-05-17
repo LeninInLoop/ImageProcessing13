@@ -190,8 +190,6 @@ class Visualization:
                 fontsize=10,
                 bbox=dict(facecolor='black', alpha=0.7)
             )
-
-        fig.suptitle('Image Compression with DCT and Quantization', fontsize=16)
         plt.tight_layout()
         plt.subplots_adjust(top=0.9, hspace=0.25, wspace=0)
 
